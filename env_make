@@ -1,0 +1,5 @@
+PORTS = \
+  --publish 9080:80 \
+
+VOLUMES = \
+  --volume $(PWD)/templates:/templates
